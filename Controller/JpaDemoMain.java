@@ -12,6 +12,9 @@ public class JpaDemoMain {
             System.out.println("User saved: " + user.getId());
         } catch(Exception e) {
             e.printStackTrace();
+        } finally {
+            em.close();
+            JPAUtil.close();
         }
     }
 }
