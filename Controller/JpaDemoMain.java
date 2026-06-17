@@ -1,4 +1,7 @@
 package Controller;
+import Model.UserClassHiber;
+import Service.JPAUtil;
+import jakarta.persistence.EntityManager;
 
 public class JpaDemoMain {
     public static void main(String[] args) {
