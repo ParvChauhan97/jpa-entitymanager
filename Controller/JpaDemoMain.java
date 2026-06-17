@@ -10,6 +10,8 @@ public class JpaDemoMain {
             em.persist(user);
             em.getTransaction().commit();
             System.out.println("User saved: " + user.getId());
+        } catch(Exception e) {
+            e.printStackTrace();
         }
     }
 }
