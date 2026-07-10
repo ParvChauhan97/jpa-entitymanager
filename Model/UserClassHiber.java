@@ -20,4 +20,9 @@ public class UserClassHiber {
         this.name = name;
         this.email = email;
     }
+
+  public UserClassHiber(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
 }
