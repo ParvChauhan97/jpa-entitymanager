@@ -14,4 +14,10 @@ public class UserClassHiber {
 
     UserClassHiber() {
     }
+
+  UserClassHiber(int id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
 }
