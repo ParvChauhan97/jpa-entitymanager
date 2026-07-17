@@ -11,4 +11,8 @@ public class JPAUtil {
   static {
         emf = Persistence.createEntityManagerFactory("MyJpaUtil");
     }
+
+  public static EntityManager getentitymanager() {
+        return emf.createEntityManager();
+    }
 }
