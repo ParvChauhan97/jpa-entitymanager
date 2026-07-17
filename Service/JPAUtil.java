@@ -15,4 +15,8 @@ public class JPAUtil {
   public static EntityManager getentitymanager() {
         return emf.createEntityManager();
     }
+
+  public static void close() {
+        emf.close();
+    }
 }
