@@ -3,7 +3,7 @@ package Model;
 import jakarta.persistence.*;
 
 @Entity
-public class UserClassHiber {
+public class UserClassHiber {  
   
    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)  
